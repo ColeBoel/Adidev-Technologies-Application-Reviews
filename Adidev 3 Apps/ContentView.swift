@@ -7,15 +7,29 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+    
+        NavigationView {
+                    List {
+                        NavigationLink(destination: ZocDocView()) {
+                            Text("ZocDoc")
+                        }
+                        NavigationLink(destination: ADPView()) {
+                            Text("ADP")
+                        }
+                        NavigationLink(destination: DoorDashView()) {
+                            Text("Doordash")
+                        }
+                        Text("Touch the top title element of each demo to revert back to this page.")
+                        
+                    }.navigationBarTitle("Select a Demo")
+                
+                }
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
+        
     }
 }
 

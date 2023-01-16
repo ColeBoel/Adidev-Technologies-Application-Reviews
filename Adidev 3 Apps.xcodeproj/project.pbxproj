@@ -14,6 +14,9 @@
 		F7D5B94C2971FC3A00AB4E0B /* Adidev_3_AppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B94B2971FC3A00AB4E0B /* Adidev_3_AppsTests.swift */; };
 		F7D5B9562971FC3A00AB4E0B /* Adidev_3_AppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B9552971FC3A00AB4E0B /* Adidev_3_AppsUITests.swift */; };
 		F7D5B9582971FC3A00AB4E0B /* Adidev_3_AppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B9572971FC3A00AB4E0B /* Adidev_3_AppsUITestsLaunchTests.swift */; };
+		F7D5B9662971FE7E00AB4E0B /* ZocDocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B9652971FE7E00AB4E0B /* ZocDocView.swift */; };
+		F7D5B9682971FE8900AB4E0B /* DoorDashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B9672971FE8900AB4E0B /* DoorDashView.swift */; };
+		F7D5B96A2971FE9300AB4E0B /* ADPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5B9692971FE9300AB4E0B /* ADPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F7D5B9512971FC3A00AB4E0B /* Adidev 3 AppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adidev 3 AppsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D5B9552971FC3A00AB4E0B /* Adidev_3_AppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adidev_3_AppsUITests.swift; sourceTree = "<group>"; };
 		F7D5B9572971FC3A00AB4E0B /* Adidev_3_AppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adidev_3_AppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7D5B9652971FE7E00AB4E0B /* ZocDocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZocDocView.swift; sourceTree = "<group>"; };
+		F7D5B9672971FE8900AB4E0B /* DoorDashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorDashView.swift; sourceTree = "<group>"; };
+		F7D5B9692971FE9300AB4E0B /* ADPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		F7D5B9392971FC3800AB4E0B /* Adidev 3 Apps */ = {
 			isa = PBXGroup;
 			children = (
+				F7D5B9642971FE6700AB4E0B /* Views */,
 				F7D5B93A2971FC3800AB4E0B /* Adidev_3_AppsApp.swift */,
 				F7D5B93C2971FC3800AB4E0B /* ContentView.swift */,
 				F7D5B93E2971FC3A00AB4E0B /* Assets.xcassets */,
@@ -127,6 +134,16 @@
 			path = "Adidev 3 AppsUITests";
 			sourceTree = "<group>";
 		};
+		F7D5B9642971FE6700AB4E0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7D5B9652971FE7E00AB4E0B /* ZocDocView.swift */,
+				F7D5B9672971FE8900AB4E0B /* DoorDashView.swift */,
+				F7D5B9692971FE9300AB4E0B /* ADPView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +160,8 @@
 			dependencies = (
 			);
 			name = "Adidev 3 Apps";
+			packageProductDependencies = (
+			);
 			productName = "Adidev 3 Apps";
 			productReference = F7D5B9372971FC3800AB4E0B /* Adidev 3 Apps.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,8 @@
 				Base,
 			);
 			mainGroup = F7D5B92E2971FC3800AB4E0B;
+			packageReferences = (
+			);
 			productRefGroup = F7D5B9382971FC3800AB4E0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D5B9682971FE8900AB4E0B /* DoorDashView.swift in Sources */,
 				F7D5B93D2971FC3800AB4E0B /* ContentView.swift in Sources */,
+				F7D5B96A2971FE9300AB4E0B /* ADPView.swift in Sources */,
 				F7D5B93B2971FC3800AB4E0B /* Adidev_3_AppsApp.swift in Sources */,
+				F7D5B9662971FE7E00AB4E0B /* ZocDocView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
